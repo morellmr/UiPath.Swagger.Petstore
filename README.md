@@ -6,7 +6,7 @@ This project demonstrates how to wrap an API in a UiPath library project, turnin
 
 ## Approach
 
-- We use UiPath coded workflows to define the API's data models.
+- We use UiPath coded source files to define the API's data models.
 - Regular UiPath workflows handle the activity implementations.
 - The goal is to balance solid coding practices with ease of use in a low-code environment.
 
