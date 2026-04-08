@@ -1,0 +1,72 @@
+{
+  "name": "Swagger.Petstore",
+  "projectId": "bca1589f-f698-42a7-a03f-a394f5c490c3",
+  "description": "",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "26.2.1",
+    "UiPath.WebAPI.Activities": "2.4.0"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.189.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a81b1090-d412-4679-8c26-646d3f9c9420",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "_Tests\\Pet\\Add_New_Pet.GivenData_WhenRun_ThenExecutes.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2d8e9fe0-ddce-47da-ba93-0ac3a2066364",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "_Tests\\User\\Create_User.GivenData_WhenRun_ThenExecutes.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9e528933-c610-4652-b601-04c711e42481",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "_Tests\\User\\Get_User.GivenUsername_WhenRun_ThenReturnsUser.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

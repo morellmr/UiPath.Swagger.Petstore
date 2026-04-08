@@ -1,0 +1,45 @@
+{
+  "DisplayName": "Add New Pet",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "Pet",
+      "DisplayName": "Pet",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Endpoint",
+      "DisplayName": "Endpoint",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "/pet",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "BaseUrl",
+      "DisplayName": "BaseUrl",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "https://petstore.swagger.io/v2",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
