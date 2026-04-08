@@ -8,9 +8,9 @@ namespace Swagger.Petstore.Model
         public int? Code { get; set; }
         
         [JsonPropertyName("type")]
-        public string? type { get; set; }
+        public string? Type { get; set; }
         
         [JsonPropertyName("message")]
-        public string? message { get; set; }
+        public string? Message { get; set; }
     }
 }

@@ -19,7 +19,7 @@ namespace Swagger.Petstore.Model
         
         [JsonPropertyName("status")]
         [JsonConverter(typeof(JsonStringEnumConverter))]
-        public OrderStatus? status { get; set; }
+        public OrderStatus? Status { get; set; }
         
         [JsonPropertyName("complete")]
         public bool? Complete { get; set; }
